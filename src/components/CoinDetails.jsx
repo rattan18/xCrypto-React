@@ -35,7 +35,7 @@ const CoinDetails = () => {
   const currencySymbol =
     currency === "inr" ? "₹" : currency === "eur" ? "€" : "$";
 
-  const btns = ["24h", "7d", "14d", "30d", "60d", "200d", "1y", "max"];
+  const btns = ["24h", "7d", "14d", "30d", "60d", "200d", "1y"];
 
   const switchChartStats = (value) => {
     switch (value) {
